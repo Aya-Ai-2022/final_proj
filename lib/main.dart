@@ -10,8 +10,7 @@ import 'package:final_proj/home_page.dart';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:shared_preferences/shared_preferences.dart'; 
-// Import the generated file
-// Import the generated file
+
 import 'firebase_options.dart';
 
 void main() async {
@@ -32,7 +31,7 @@ await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   );
 }
 
-// Rest of your code remains unchanged...
+
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -57,30 +56,3 @@ class MyApp extends StatelessWidget {
 
 
 
-
-
-/*
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  final sharedPreferences = await SharedPreferences.getInstance();
-
-  runApp(
-    MultiBlocProvider(
-      providers: [
-        BlocProvider<AuthCubit>(
-          create: (context) => AuthCubit(sharedPreferences),
-        ),
-        BlocProvider<AdsCubit>(
-          create: (context) => AdsCubit()..getAds(),
-        ),
-        BlocProvider<CategoriesCubit>(
-          create: (context) => CategoriesCubit()..getCategories(),
-        ),
-      ],
-      child: const MyApp(),
-    ),
-  );
-}
-*/
