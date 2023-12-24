@@ -1,39 +1,6 @@
 
 import 'package:final_proj/auth_page.dart';
 import 'package:flutter/material.dart';
-
-
-
-/*
-
-class SplashScreen extends StatelessWidget {
-  const SplashScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    
-    Future.delayed(
-      const Duration(seconds: 2),
-      () {
-        Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(
-            builder: (context) => const AuthPage(),
-          ),
-        );
-      },
-    );
-
- 
-    return const Scaffold(
-      body: Center(
-        child: Text('Splash Screen'),
-      ),
-    );
-  }
-}*/
-
-
 import 'dart:async';
 
 
@@ -83,23 +50,3 @@ class _SplashScreenState extends State<SplashScreen> {
 }
 
 
-
-/*
-class SplashScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage('assets/splash_background.jpg'), // Replace with your image path
-            fit: BoxFit.cover,
-          ),
-        ),
-        child: Center(
-          child: Text('Your Splash Screen Content'),
-        ),
-      ),
-    );
-  }
-}*/
