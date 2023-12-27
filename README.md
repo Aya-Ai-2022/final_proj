@@ -1,6 +1,7 @@
 # final_proj
 
 A new Flutter project.
+![](https://github.com/Aya-Ai-2022/final_proj/blob/main/final_cart_forget.gif)
 
 ## Getting Started
 
